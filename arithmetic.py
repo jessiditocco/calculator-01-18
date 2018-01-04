@@ -30,11 +30,15 @@ def divide(num1, num2):
     quotient = num1/num2
     return quotient
 
-print divide(10, 2)
+# print divide(10, 2)
 
 
 def square(num1):
     """Return the square of the input."""
+    square = num1**2
+    return square
+
+print square(9)
 
 
 def cube(num1):
