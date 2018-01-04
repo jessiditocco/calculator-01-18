@@ -63,3 +63,17 @@ def mod(num1, num2):
     return modulo
 
 # print mod(10, 5)
+
+
+def multiplies_custom_sum(num1, num2, num3):
+    """Returns the sum of the first two numbers muliplied by the third."""
+    return (num1 + num2) * num3
+
+# print multiplies_custom_sum(1, 2, 3)
+
+
+def add_cubes(num1, num2):
+    """Returns the sum of two cubes."""
+    return (num1 ** 3) + (num2 ** 3)
+
+# print add_cubes(3, 2)
