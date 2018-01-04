@@ -14,12 +14,15 @@ def subtract(num1, num2):
     difference = num1-num2
     return difference
 
-print subtract(8,6)
+# print subtract(8,6)
 
 
 def multiply(num1, num2):
     """Multiply the two inputs together."""
+    product = num1*num2
+    return product
 
+print multiply(8, 2)
 
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
