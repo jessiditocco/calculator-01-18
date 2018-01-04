@@ -38,11 +38,15 @@ def square(num1):
     square = num1**2
     return square
 
-print square(9)
+# print square(9)
 
 
 def cube(num1):
     """Return the cube of the input."""
+    cube = num1**3
+    return cube
+
+print cube(2)
 
 
 def power(num1, num2):
