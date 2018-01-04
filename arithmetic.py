@@ -22,10 +22,15 @@ def multiply(num1, num2):
     product = num1*num2
     return product
 
-print multiply(8, 2)
+# print multiply(8, 2)
+
 
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
+    quotient = num1/num2
+    return quotient
+
+print divide(10, 2)
 
 
 def square(num1):
