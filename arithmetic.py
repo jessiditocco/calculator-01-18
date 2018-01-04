@@ -46,11 +46,15 @@ def cube(num1):
     cube = num1**3
     return cube
 
-print cube(2)
+# print cube(2)
 
 
 def power(num1, num2):
     """Raise num1 to the power of num2 and return the value."""
+    power = num1 ** num2
+    return power
+
+print power(2, 2)
 
 
 def mod(num1, num2):
