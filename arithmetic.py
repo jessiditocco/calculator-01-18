@@ -6,11 +6,15 @@ def add(num1, num2):
     sum = num1 + num2
     return sum
 
-print add(2,3)
+# print add(2,3)
 
 
 def subtract(num1, num2):
     """Return the second number subtracted from the first."""
+    difference = num1-num2
+    return difference
+
+print subtract(8,6)
 
 
 def multiply(num1, num2):
